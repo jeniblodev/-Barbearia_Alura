@@ -1,0 +1,134 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #D3D3D3;
+}
+
+header img {
+    width: 140px;
+}
+
+header::after {
+    content: "";
+    background: url(/img/fundoheader.jpg);
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+    height: 241px;
+    width: 100%;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+nav {
+    position: absolute;
+    top:90px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+
+}
+
+form {
+    margin: 50px auto;
+    padding-left: 230px;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 10px 10px;
+    width: 494px;
+    border-radius: 10px;
+    border: 1px solid #808080;
+}
+
+.contato {
+    padding-top: 10px;
+    padding-bottom: 30px;
+
+}
+
+.checkbox {
+    margin: 30px 0;
+    
+}
+
+.enviar {
+    width: 250px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #363636;
+    color: #D3D3D3;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-left: 130px;
+    transition: .3s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background-color: #4F4F4F;
+    font-size: 18px;
+    transform: scale(1.1);
+}
+
+footer {
+    text-align: center;
+    background-image: url('/img/bg.jpg');
+    padding: 20px 0px;
+}
+
+footer img {
+    width: 100px;
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin-top: 20px;
+}

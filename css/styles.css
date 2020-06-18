@@ -1,0 +1,188 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+header::after {
+    content: "";
+    background: url(/img/fundoheader.jpg);
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+    height: 210px;
+    width: 100%;
+}
+
+
+.caixa {
+    position: relative;
+    width: 990px;
+    margin: 0 auto;
+}
+
+
+.title {
+   position: absolute; 
+   left: 120px;
+   top: 60px;
+   font-size: 40px;
+   font-weight: bold;
+   
+   
+}
+
+header img {
+    width: 120px;
+    opacity: 100%;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav ul {
+    width: 368px;
+    margin-top: -35px;
+}
+
+nav li {
+    opacity: none;
+    display: inline;
+    margin-left: 20px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+
+}
+
+.banner {
+    width: 100%;
+}
+
+.principal {
+    background-color: #CCCCCC;
+    height: 200px;
+    padding: 40px;
+    margin-top: -5px;
+}
+
+.titulo-principal {
+    text-align: center;
+    padding-bottom: 1em;
+    font-size: 2em;
+
+}
+
+.utensilios {
+    width: 150px;
+}
+ 
+p {
+    text-align: center; 
+    line-height: 1.5;
+      
+}
+
+#missao {
+    font-size: 20px;
+    font-style: italic;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: underline;
+   
+}
+
+.beneficios {
+    background-color: #FFFFFF;
+    padding: 20px;
+    height: 500px;
+    margin-top: 20px;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    margin-left: 160px;
+    margin-top: 100px;
+    list-style: unset;
+    
+}
+
+.itens {
+    font-style: italic;
+    font-size: 25px;
+    line-height: 2;
+}
+
+.imagemBeneficios {
+    width: 40%;
+    position: absolute;
+    right: 90px;
+    margin-top: 20px;
+
+}
+
+.horario {
+    background-color: #CCCCCC;
+    padding-bottom: 50px;
+    
+}
+
+.horario h3 {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.horario table {
+    margin-left: 570px;
+}
+
+.horario table thead {
+    background-color: #363636;
+    color: #D3D3D3;
+}
+
+.horario table td, th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+    
+}
+
+footer {
+    text-align: center;
+    background-image: url('/img/bg.jpg');
+    padding: 20px 0px;
+}
+
+footer img {
+    width: 100px;
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
