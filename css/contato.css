@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 header {
@@ -107,7 +107,7 @@ form label, form legend {
     font-weight: bold;
     border-radius: 10px;
     margin-left: 130px;
-    transition: .3s all;
+    transition: .5s all;
     cursor: pointer;
 }
 

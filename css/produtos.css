@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 header {
@@ -12,7 +12,7 @@ header img {
     width: 140px;
 }
 
-header::after {
+header:after {
     content: "";
     background: url(/img/fundoheader.jpg);
     opacity: 0.2;
@@ -94,22 +94,22 @@ nav a:hover {
 }
 
 .produtos li:hover h2 {
-    font-size: 34px;
+    font-size: 31px;
 }
 
 .produtos h2 {
-    font-size: 30px;
+    font-size: 29px;
     font-weight: bold;
 }
 
 .descricao {
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .preco {
     font-size: 22px;
     font-weight: bold;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 footer {
@@ -126,4 +126,28 @@ footer img {
     color: #ffffff;
     font-size: 13px;
     margin-top: 20px;
+}
+
+@media screen and (max-width: 400px) {
+    .caixa, .principal, .conteudo-beneficios, .conteudo-mapa, .video {
+        width: auto;
+    }
+
+    header:after {
+        height: 284px;
+    }
+
+    .logo img {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+        margin-top: 20px;
+        margin-left: -12px;
+    }
+
+    .main {
+        text-align: center;
+    }
 }
