@@ -1,8 +1,9 @@
 # Barbearia Alura
 
+## 📋 Descrição
 Hey Devs!
 
-Este projeto foi desenvolvido durante as aulas de HTML e CSS da Alura. Abaixo estão detalhados os principais conceitos aprendidos durante as aulas:
+Este projeto foi desenvolvido durante as aulas de HTML e CSS da [Alura](https://www.alura.com.br/). Abaixo estão detalhados os principais conceitos aprendidos durante as aulas:
 
 **Módulo 01**
 - O que é o HTML e o CSS;
@@ -31,3 +32,17 @@ Este projeto foi desenvolvido durante as aulas de HTML e CSS da Alura. Abaixo es
 - Seletores de CSS avançados seletores de CSS avançados;
 - Lidando com opacidade e sombra;
 - Viewport e design responsivo.
+
+## 🖥️ Tecnologias
+
+- HTML
+- CSS
+
+## 🎨 Projetos
+*✓ Finalizado*
+
+- Criação da página completa de uma barbearia utilizando HTML e CSS.
+
+## 🖼️ Resultado
+
+![](https://github.com/jeniblodev/-Barbearia_Alura/blob/master/img/Projeto01.png) ![](https://github.com/jeniblodev/-Barbearia_Alura/blob/master/img/Projeto02.png) ![](https://github.com/jeniblodev/-Barbearia_Alura/blob/master/img/Projeto03.png) ![](https://github.com/jeniblodev/-Barbearia_Alura/blob/master/img/ProjetoMobile.png)
